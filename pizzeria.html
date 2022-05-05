@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <div class="content">
+    <h1>Blue's Pizzeria</h1>
+  </div>
+</div>
+
+<form>
+  <fieldset>
+    <legend>Customer:</legend>
+    <div class="row">
+      <label for="firstname">first</label>
+      <input id="firstname" name="first_name" type="text">
+    </div>
+</form>
+
+<form>
+  <div class="row">
+    <div>
+      <label for="lastname">last</label>
+      <input id="lastname" name="first_name" type="text">
+    </div>
+  </div>
+  </fieldset>
+</form>
+<div>
+  <div>
+    <fieldset>
+      <legend>Toppings:</legend>
+      <input type="radio" id="pepperoni" name="icecream">
+      <label for="pepperoni">pepperoni</label>
+  </div>
+  <div>
+    <div>
+      <input type="radio" id="sausage" name="icecream">
+      <label for="sausage">sausage</label>
+    </div>
+  </div>
+</div>
+<div>
+  <input type="radio" id="chocolate" name="icecream">
+  <label for="chocolate">chocolate</label>
+</div>
+<div>
+  <input type="radio" id="mushrooms" name="icecream">
+  <label for="mushrooms">mushroom</label>
+</div>
+</fieldset>
+<legend>Size:</legend>
+
+<fieldset>
+  <legend> 2ndary Toppings:</legend>
+  <div>
+    <div>
+      <input type="checkbox" id="bell peppers" name="bell peppers" value="bell peppers">
+      <label for="bell peppers">bell peppers</label>
+    </div>
+    <div>
+      <input type="checkbox" id="ham" name="ham" value="ham"
+      <label for="ham">ham</label>
+    </div>
+</fieldset>
+<div>
+  <label for="container">Please Choose One soft drink</label>
+  <select name="container" id="container">
+    <option value="mountin shoutin">Mountin Shoutin</option>
+    <option value="Dr Bob">Dr Bob</option>
+    <option value="Spite">Spite</option>
+    <option value="Misty Sierra">Misty Sierra</option>
+  </select>
+</div>
+</div>
+<fieldset>
+</fieldset>
+<button type="button" onclick="alert('Free today for our Grand Opening')">Calculate Cost</button>
+<button type="submit">Submit Order</button>
+</form>
+</body>
+</html>
